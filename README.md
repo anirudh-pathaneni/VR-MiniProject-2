@@ -5,7 +5,7 @@ This project focuses on creating and fine-tuning a Visual Question Answering (VQ
 
 ## Project Structure
 The project files are hosted in the GitHub repository at [https://github.com/anirudh-pathaneni/VR-MiniProject-2](https://github.com/anirudh-pathaneni/VR-MiniProject-2). The structure is as follows:
-- `IMT2022505_100_545/`: Directory containing inference scripts, added in the latest commit.
+- `IMT2022505_100_545/`: Directory containing inference scripts
 - `Blip-2-Base.ipynb`: Kaggle notebook with base model evaluation and metrics for `Salesforce/blip2-flan-t5-xl`.
 - `Blip-vqa-base-Base.ipynb`: Kaggle notebook with base model evaluation and metrics for `Salesforce/blip-vqa-base`.
 - `LoRA-Blip-vqa-base-Seq.ipynb`: Kaggle notebook with LoRA fine-tuning and metrics for `Salesforce/blip-vqa-base`.
@@ -14,7 +14,7 @@ The project files are hosted in the GitHub repository at [https://github.com/ani
 - `blip-vqa-base_metrics_base.csv`: CSV file with base metrics for `Salesforce/blip-vqa-base`.
 - `blip2-base_metrics_base.csv`: CSV file with base metrics for `Salesforce/blip2-flan-t5-xl`.
 - `dc.py` and `dp.py`: Python scripts for data curation code and QA dataset generation.
-- `vqa_dataset_final_new.csv`: Final curated QA dataset in CSV format.
+- `vqa_dataset_final_new.csv`: Curated QA dataset in CSV format.
 
 The CSV files contain performance metrics, while the Jupyter notebooks (`.ipynb`) are Kaggle notebooks used for model training, evaluation, and experimentation.
 
